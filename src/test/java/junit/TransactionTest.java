@@ -4,7 +4,7 @@ import org.example.Transaction;
 import org.junit.Test;
 
 /*
- * This is a basic JUnit class to exercise getters/setters within the Transaction class,
+ * This is a basic JUnit class that exercises getters/setters within the Transaction class,
  * actor behaviour will be validated using Cucumber
  */
 public class TransactionTest {

@@ -48,7 +48,7 @@ public class TransactionProducerActor extends AbstractActor {
 
     @Override
     public void preStart() {
-        // Generate 25 transactions per second
+        // Generate 50 transactions per second
         getContext().getSystem().scheduler().scheduleAtFixedRate(
                 scala.concurrent.duration.Duration.Zero(),
                 scala.concurrent.duration.Duration.create(40, "milliseconds"),

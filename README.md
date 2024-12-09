@@ -1,1 +1,1 @@
-Akka based bank account case study
+Akka-based bank account case study
